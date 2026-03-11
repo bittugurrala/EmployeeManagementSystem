@@ -1,0 +1,1 @@
+This is a React based Employee management system, using Local storage for Data storage
