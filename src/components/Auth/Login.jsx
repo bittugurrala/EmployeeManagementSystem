@@ -10,8 +10,8 @@ export default function Login(){
     // Function to handle submit function
     const submitHandler = (e) => {
         e.preventDefault()          //To prevent the default referesh
-        console.log(email)
-        console.log(password)
+        // console.log(email)
+        // console.log(password)
         setEmail("")             //To reset the value of the email feild to None
         setPassword("")       //To reset the value of the password feild to None
 
