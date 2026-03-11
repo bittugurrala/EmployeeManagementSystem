@@ -1,9 +1,12 @@
 import './App.css'
+import Login from './components/Auth/Login'
 
 function App() {
 
   return (
-    <div className='text-3xl'>App</div>
+    <div className='h-screen w-screen flex items-center justify-center'>
+      <Login/>
+    </div>
   )
 }
 
