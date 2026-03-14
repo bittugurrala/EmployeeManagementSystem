@@ -6,7 +6,7 @@ export default function AdminDashboard(){
     return(
         <div className="h-screen w-screen flex flex-col scroll overflow-hidden">
             <Header/>
-            <div className=" h-screen flex flex-col gap-5">
+            <div className=" h-screen flex flex-col md:gap-5">
                 <div className="w-screen h-1/2 rounded-2xl"><CreateTaks/></div>
                 <div className="px-10 overflow-y-auto TasksList scroll"><AdminTasksList/></div>
             </div>
