@@ -7,7 +7,7 @@ import Header from './others/Header'
 function App() {
 
   return (
-    <div className='h-screen w-screen'>
+    <div className='h-screen w-screen overflow-hidden'>
       {/* <Login/> */}
       {/* <EmployeeDashboard/> */}
       <Header/>
