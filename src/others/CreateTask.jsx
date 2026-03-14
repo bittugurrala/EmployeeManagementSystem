@@ -26,7 +26,7 @@ export default function CreateTaks(){
                                     <label>Description</label>
                                     <textarea className="border-white border h-71.25 text-gray-300 rounded-2xl px-2 py-3 " placeholder="Description of the Task"></textarea>
                                 </div>
-                                <button className="bg-amber-400 px-2 py-3 rounded-2xl w-full">Create Task</button>
+                                <button className="bg-amber-400 px-2 py-3 rounded-2xl w-full active:scale-90">Create Task</button>
                             </div>
                                 
                         </form>
