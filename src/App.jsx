@@ -1,17 +1,26 @@
+import { useEffect } from 'react'
 import './App.css'
 import AdminDashboard from './components/Dashboards/AdminDashboard'
 // import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboards/EmployeeDashboard'
 import Header from './others/Header'
+import { setLocalStorage , getLocalStorage } from './utils/LocalStorage'
 
 function App() {
 
+  useEffect(() => {
+    setLocalStorage()
+    getLocalStorage()
+  }, [])
+
+
+
   return (
-    <div className='h-screen w-screen overflow-hidden'>
+    <div className='h-screen w-screen'>
       {/* <Login/> */}
       {/* <EmployeeDashboard/> */}
-      <Header/>
-      <AdminDashboard/>
+      {/* <Header/>*/}
+      <AdminDashboard/> 
     </div>
   )
 }
