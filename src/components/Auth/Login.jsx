@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function Login(){
+export default function Login({loginHandler}){
 
     // useStates for managing the Emails and Passwords
     const[email, setEmail] = useState("")    
@@ -10,6 +10,7 @@ export default function Login(){
     // Function to handle submit function
     const submitHandler = (e) => {
         e.preventDefault()          //To prevent the default referesh
+        loginHandler(email, password)
         // console.log(email)
         // console.log(password)
         setEmail("")             //To reset the value of the email feild to None
